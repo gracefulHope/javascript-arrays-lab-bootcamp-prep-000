@@ -32,7 +32,7 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   var end = kittens.length - 1
-  const newKittens = kittens.slice(end)
+  const newKittens = kittens.slice(0, end)
   return newKittens
 }
 
