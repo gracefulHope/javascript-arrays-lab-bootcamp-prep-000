@@ -31,5 +31,7 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  
+  var last = kittens.length - 1
+  const newKittens = kittens.shift(last)
+  return newKittens
 }
